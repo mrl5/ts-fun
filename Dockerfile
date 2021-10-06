@@ -2,18 +2,18 @@
 FROM node:14 AS prd-env
 COPY . /app
 WORKDIR /app
-RUN npm ci --only=production
+RUN yarn install --production --frozen-lockfile
 
 FROM prd-env AS build-env
 WORKDIR /app
-RUN npm i \
-    && npm run build
+RUN yarn install --frozen-lockfile \
+    && yarn run build
 
 FROM gcr.io/distroless/nodejs:14
-COPY --from=build-env /app/dist /app
+COPY --from=build-env /app/build /app
 COPY --from=prd-env /app/node_modules /app/node_modules
 WORKDIR /app
 ARG ENV="production"
 ENV NODE_ENV=$ENV
 EXPOSE 3000
-CMD ["main.js"]
+CMD ["src/server.js"]

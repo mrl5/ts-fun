@@ -8,7 +8,7 @@ build:
 	docker build -t ts-fun .
 
 run:
-	docker run -p 3000:3000 ts-fun:latest
+	docker run --rm -p 3000:3000 ts-fun:latest
 
 serve:
 	docker run -d -p 3000:3000 ts-fun:latest
