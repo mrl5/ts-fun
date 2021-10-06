@@ -13,3 +13,9 @@
 
 ## TypeScript + VIM
 https://pragmaticpineapple.com/ultimate-vim-typescript-setup/
+
+## OpenAPI integration
+[tsoa](https://www.npmjs.com/package/tsoa) seems to be very nice:
+> A valid OpenAPI is generated from your controllers and models
+
+https://tsoa-community.github.io/docs/getting-started.html

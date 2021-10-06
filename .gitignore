@@ -1,3 +1,6 @@
-dist
+# project specific
+build
 node_modules
+
+# IDE specific
 *.swp
