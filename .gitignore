@@ -1,5 +1,6 @@
 # project specific
-build
+build/*
+!build/swagger.json
 node_modules
 
 # IDE specific
