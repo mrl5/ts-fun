@@ -19,3 +19,12 @@ https://pragmaticpineapple.com/ultimate-vim-typescript-setup/
 > A valid OpenAPI is generated from your controllers and models
 
 https://tsoa-community.github.io/docs/getting-started.html
+
+## Tests
+1. https://dev.to/matteobruni/mocha-chai-with-typescript-37f
+2. https://github.com/mochajs/mocha-examples/blob/master/packages/typescript/.mocharc.json
+
+## Coverage
+1. https://www.npmjs.com/package/nyc
+2. https://www.npmjs.com/package/@istanbuljs/nyc-config-typescript
+3. https://www.typescriptlang.org/tsconfig#sourceMap
