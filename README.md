@@ -28,3 +28,8 @@ https://tsoa-community.github.io/docs/getting-started.html
 1. https://www.npmjs.com/package/nyc
 2. https://www.npmjs.com/package/@istanbuljs/nyc-config-typescript
 3. https://www.typescriptlang.org/tsconfig#sourceMap
+
+## Dos and Donts
+1. https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
+2. https://google.github.io/styleguide/tsguide.html#primitive-types-wrapper-classes
+3. https://stackoverflow.com/a/36636368
